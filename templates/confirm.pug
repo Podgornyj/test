@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+  h1 #{user.displayName}, please confirm your Email!
+
+  form(action="/logout" method="post")
+    input(type="hidden" name="_csrf" value=csrf())
+    button.btn.btn-primary(type="submit") Logout
