@@ -3,9 +3,9 @@
 // P.S. MWs calls be refactored in many files
 
 // long stack trace (+clarify from co) if needed
-if (process.env.TRACE) {
-  require('./libs/trace');
-}
+// if (process.env.TRACE) {
+//   require('./libs/trace');
+// }
 
 /*
   transfermoney.com
